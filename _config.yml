@@ -1,0 +1,22 @@
+theme: minima
+markdown: kramdown
+
+title: Efficiently Learning the Inverse Kinematics With Obstacles
+
+author: johannes.tenhumberg@dlr.de
+
+header_pages:
+  - _pages/robots.md
+  - _pages/worlds.md
+  - _pages/bps.md
+  - _pages/methods.md
+  - _pages/results.md
+  - _pages/code.md
+
+include:
+    - _pages
+
+exclude:
+    - .gitignore
+    - Gemfile
+    - README.md
