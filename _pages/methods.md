@@ -42,37 +42,15 @@ See also the accompanying video for a clearer visualization of the mode switch.*
     margin-right: auto"}
 
 
-
 ## Boosting
-TODO Show prior/after effct of boosting.
-Ask Arman if he has a suitable figure for this
-
-By using a general rejection sampling approach and using the flexibility of the pan-tilt joints of the robots neck we were able to
-collect a large dataset of different robot configurations quickly.
-
-
-
-![flowchart](../assets/imgs/ub4.png){:.this
-style="width: 600px;
-display: block;
-margin-left: auto;
-margin-right: auto"}
-*The different marker positions in the image for the left arm, the pole on the floor and the right arm.
-We move the pan-tilt joints of the robot's neck to get a good coverage of the image over all markers.*
-
-## Virtual Noise
-
-![flowchart](../assets/imgs/probabilistic_graph.png){:.this
-style="width: 600px;
-display: block;
-margin-left: auto;
-margin-right: auto"}
-*Probabilistic graphical model of the calibration problem including the camera and robot model.
-For each of the \\(N\\) samples, it describes how the pixel coordinates \\(u\\) of a marker is computed from the joint configuration \\(q\\) and the model parameters \\(\Theta\\).
-**Left (w/o red parts)**: Original mapping with the real pixel measurement noise \\(\eta_u\\) as the only source of stochasticity.
-**Right**: An additional virtual cartesian noise node is added to compensate for the imperfect (actually deterministic) kinematic model.
-**Left (with red parts)**: The virtual noise can be incorporated into the original model, resulting in an effective pixel noise with a \\(\tilde{\sigma}_u\\) depending on the distance of the marker to the camera (\\(\propto 1/z^2\\)).*
-
+![example twin-head Justin19](../assets/imgs/methods/boosting.png){:.this
+    style="width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto"}
+*Comparison between a model without boosting (left) and one with boosting (right) on LWR III without obstacles. 
+These plots show the maximum error over all target orientations at each position. 
+The plots show a slice of the workspace at x = 0.*
 ---
 
 
