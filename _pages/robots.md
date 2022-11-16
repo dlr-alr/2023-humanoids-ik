@@ -4,7 +4,7 @@ layout: page
 title: Robots
 ---
 
-![mass model](../assets/imgs/3Robots.png){:.this
+![3robots](../assets/imgs/robots/3Robots.png){:.this
 style="width: 750px;
 display: block;
 margin-left: auto;
