@@ -15,6 +15,16 @@ usemathjax: true
 The IK problem is described by a world \\( x_{\text{w}} \\), and a frame in the workspace \\(x_{\text{f}}\\) and the network should predict a collision-free joint configuration \\(q\\) that satisfies the end-effector.
 The dotted line indicates the backpropagation during unsupervised training, where the network weights \\(\Theta\\) are directly updated according to the gradient of the cost function \\(U\\).*
 
+---
+## Joint Representation 
+![joint representation](../assets/imgs/methods/joint_representation){:.this
+    style="width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto"}
+*Comparison between a model that represents joint angles using radians (left) and one that represents them as points on the unit circle (right). 
+At each position, the plots show the maximum error for Flat Arm over 2880 evenly spaced target orientations.*
+---
 
 ## Twin Heads
 ![with without twin-head](../assets/imgs/methods/why-twin.gif){:.this
@@ -41,6 +51,7 @@ See also the accompanying video for a clearer visualization of the mode switch.*
     margin-left: auto;
     margin-right: auto"}
 
+--- 
 
 ## Boosting
 ![example boosting lwr](../assets/imgs/methods/boosting.png){:.this
@@ -51,7 +62,7 @@ See also the accompanying video for a clearer visualization of the mode switch.*
 *Comparison between a model without boosting (left) and one with boosting (right) on LWR III without obstacles. 
 These plots show the maximum error over all target orientations at each position. 
 The plots show a slice of the workspace at x = 0.*
----
+
 
 
 
