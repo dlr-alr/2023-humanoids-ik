@@ -43,7 +43,7 @@ See also the accompanying video for a clearer visualization of the mode switch.*
 
 
 ## Boosting
-![example twin-head Justin19](../assets/imgs/methods/boosting.png){:.this
+![example boosting lwr](../assets/imgs/methods/boosting.png){:.this
     style="width: 600px;
     display: block;
     margin-left: auto;
