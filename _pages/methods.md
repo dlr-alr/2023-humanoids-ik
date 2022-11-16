@@ -17,7 +17,7 @@ The dotted line indicates the backpropagation during unsupervised training, wher
 
 ---
 ## Joint Representation 
-![joint representation](../assets/imgs/methods/joint_representation){:.this
+![joint representation](../assets/imgs/methods/joint_representation.png){:.this
     style="width: 600px;
     display: block;
     margin-left: auto;
