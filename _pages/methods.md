@@ -5,7 +5,7 @@ title: Methods
 usemathjax: true
 ---
 
-## Unsupervisd Regression
+## Unsupervised Regression
 ![flowchart](../assets/imgs/methods/information_flow.png){:.this
     style="width: 600px;
     display: block;
@@ -27,8 +27,34 @@ At each position, the plots show the maximum error for Flat Arm over 2880 evenly
 ---
 
 ## Twin Heads
-![with without twin-head](../assets/imgs/methods/why-twin.gif){:.this
-    style="width: 600px;
+![example twin-head JustinArm07](../assets/imgs/methods/mode-switches-2d.mp4){:.this
+style="width: 600px;
+display: block;
+margin-left: auto;
+margin-right: auto"}
+*The network prediction for a twin-headed network is shown along a line through the workspace.
+The two heads are drawn in red and blue, respectively.  
+The graph on the bottom shows the objective function U for the two heads.
+In addition, green indicates the minimum of the two heads.
+Along the trajectory, the minimum changes between head A and head B.
+Those changes between the two modes are abrupt and discontinuous.
+However, with two heads, one can change immediately to the optimal mode.
+*
+
+![example twin-head JustinArm07](../assets/imgs/methods/best-head_around-the-clock.mp4){:.this
+style="width: 600px;
+display: block;
+margin-left: auto;
+margin-right: auto"}
+*The color map shows which head scores better for the objective function over the whole workspace: head "A" is red, and head "B" is blue.
+The two heads perform differently over the workspace, and rotating the goal orientation changes this pattern.
+Especially the symmetries in the kinematics become apparent when following a complete revolution.
+In addition, the prediction of the network is shown at two positions.
+For each, the better head is drawn in its respective color.*
+
+
+![with without twin-head](../assets/imgs/methods/circle_single-0-1.mp4){:.this
+    style="width: 800px;
     display: block;
     margin-left: auto;
     margin-right: auto"}
@@ -39,19 +65,12 @@ This switch happens not instantaneously but over a small range, which the dark r
 Each head of the twin model also has switching points, but as those two regions do not intersect, it can always predict valid and smoothly changing configurations.
 See also the accompanying video for a clearer visualization of the mode switch.*
 
-![example twin-head JustinArm07](../assets/imgs/methods/example-twin-head_JustinArm07.gif){:.this
-    style="width: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto"}
+[TODO add image]
+*The two heads allow not only immediate switching between different modes, the prediction is also better in terms of 
+objective function, than a single-headed network.*
 
-![example twin-head Justin19](../assets/imgs/methods/example-twin-head_Justin19.gif){:.this
-    style="width: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto"}
 
---- 
+
 
 ## Boosting
 ![example boosting lwr](../assets/imgs/methods/boosting.png){:.this

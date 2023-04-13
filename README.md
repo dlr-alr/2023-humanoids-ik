@@ -1,4 +1,4 @@
-# 2023-icra-ik
+# 2023-iros-ik
 
-This is the [website](https://dlr-alr.github.io/2023-icra-ik) for the paper 'Efficiently Learning the Inverse Kinematics With Obstacles'.
+This is the [website](https://dlr-alr.github.io/2023-iros-ik) for the paper "Efficient Learning of Fast Inverse Kinematics with Collision Avoidance".
 It is hosted via GitHub Pages (theme: minima)
