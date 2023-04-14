@@ -4,7 +4,7 @@ title:
 ---
 
 This site accompanies the paper [Efficient Learning of Fast Inverse Kinematics with Collision Avoidance](https://ieeexplore.ieee.org/) by
-[Johannes Tenhumberg](https://scholar.google.com/citations?user=2RZuYZMAAAAJ), [Arman Milke]((https://scholar.google.com), [Darius Burschaka](https://scholar.google.com/citations?user=y-MzVoUAAAA ) and [Berthold Bäuml](https://scholar.google.com/citations?user=fjvpDsEAAAAJ).
+[Johannes Tenhumberg](https://scholar.google.com/citations?user=2RZuYZMAAAAJ), [Arman Milke](https://scholar.google.com), [Darius Burschaka](https://scholar.google.com/citations?user=y-MzVoUAAAA ) and [Berthold Bäuml](https://scholar.google.com/citations?user=fjvpDsEAAAAJ).
 
 
 ![Agile Justin in front of a shelf](/assets/imgs/justin_shelf2.jpg){:.this

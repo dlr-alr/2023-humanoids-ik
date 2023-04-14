@@ -2,7 +2,7 @@
 permalink: /results
 layout: page
 title: Results
-usemathjax: true
+usemathjax: false
 ---
 
 This section gives an overview of our results.

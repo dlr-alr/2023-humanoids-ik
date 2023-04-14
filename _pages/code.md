@@ -8,4 +8,4 @@ title: Code
 The code for this paper is available on [GitHub](https://github.com/)
 
 # CodeLab
-Some examples can also be run directly via CodeLab(https://CodeLab.com/)
+Some examples can also be run directly via [CodeLab](https://CodeLab.com/)
