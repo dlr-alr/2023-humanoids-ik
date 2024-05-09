@@ -1,7 +1,7 @@
 theme: minima
 markdown: kramdown
 
-title: Efficiently Learning the Inverse Kinematics With Obstacles
+title: Efficient Learning of Fast Inverse Kinematics with Collision Avoidance
 
 author: johannes.tenhumberg@dlr.de
 
@@ -21,3 +21,4 @@ exclude:
     - .gitignore
     - Gemfile
     - README.md
+
